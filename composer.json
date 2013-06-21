@@ -1,5 +1,13 @@
 {
     "name": "anchu/faye-php",
+     "description": "This is a PHP wrapper for interacting with the Faye server.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harish A",
+            "email": "ccoollh@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "curl": "*",
