@@ -1,6 +1,7 @@
 {
     "name": "anchu/faye-php",
-     "description": "This is a PHP wrapper for interacting with the Faye server.",
+    "description": "This is a PHP wrapper for interacting with the Faye server.",
+    "keywords": ["php-faye-server", "faye", "rest", "realtime", "trigger", "publish", "events"],
     "license": "MIT",
     "authors": [
         {
@@ -9,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "curl": "*",
-        "json": "*"
-    }
+        "php": ">=5.3.0",   
+        "ext-curl": "*"
+        
+    }  
 }
