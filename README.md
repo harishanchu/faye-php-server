@@ -38,4 +38,4 @@ The output of this will be:
     
 ##License
 
-Copyright 2013, Harish A <ccoollh@gmail.com>. Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+Copyright 2013, Harish A. Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
