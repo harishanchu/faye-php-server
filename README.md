@@ -5,7 +5,9 @@ Faye is a publish-subscribe messaging system based on the Bayeux protocol.
 
 ##Installation
 
-You can clone or download the library files.
+You can get the Faye PHP library via composer package. See https://packagist.org/packages/anchu/faye-php
+
+Or you can clone or download the library files.
 
 ##Faye constructor
 
