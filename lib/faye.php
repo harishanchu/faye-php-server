@@ -4,9 +4,9 @@
     /////////////////////////////////
 	PHP library for Faye.
 
-	See the README for usage information: https://github.com/anchu/faye-php-server
+	See the README for usage information: https://github.com/harishanchu/faye-php-server
 
-	Copyright 2013, Harish A <ccoollh@gmail.com>. Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+	Copyright 2013, Harish A <harishanchu@gmail.com>. Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 */
 //todo:user authentication
 //todo: encrypt messages
