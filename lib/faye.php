@@ -77,7 +77,7 @@ class Faye
 	{
 		if ( ! extension_loaded( 'curl' ) || ! extension_loaded( 'json' ) )
 		{
-			throw new PusherException('There is missing dependant extensions - please ensure both cURL and JSON modules are installed');
+			throw new FayeException('There is missing dependant extensions - please ensure both cURL and JSON modules are installed');
 		}
 	}
 	
@@ -95,7 +95,7 @@ class Faye
 		$ch = curl_init();
 		if ( $ch === false )
 		{
-			throw new PusherException('Could not initialise cURL!');
+			throw new FayeException('Could not initialise cURL!');
 		}
 		curl_setopt( $ch, CURLOPT_URL, $full_url );
 		curl_setopt( $ch, CURLOPT_HTTPHEADER, array ( "Content-Type: application/json" ) );
